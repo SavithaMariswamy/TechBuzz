@@ -26,7 +26,9 @@ Script looks something like this.
 [savitham]$more launch
 
 -#!/bin/bash
+
  shift
+ 
  java -jar ~/meld/jmeld $@ 1>/dev/null
 
 Note:  For jmeld to work you need to xserver running on your terminal
